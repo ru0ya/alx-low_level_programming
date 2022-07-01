@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	for (int y = 'A' ;  y <= 'Z'; y++)
+	for (int y = 'a' ;  y <= 'z'; y++)
 	{
 		putchar(tolower(y));
 		putchar('\n');
