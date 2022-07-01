@@ -1,14 +1,18 @@
 #include<stdio.h>
 /**
- * main-Entry point
+ * main-Entry function
  * Return:0 success
 */
+
 int main(void)
 {
-	for (int a = 'A' ; a <= 'z' ; a++)
+	char x;
+	/* Program */
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		a = tolower(x);
-		putchar(x);
+		if (x != 'e' && x != 'q')
+			putchar(x);
 	}
+	putchar('\n');
 	return (0);
 }
