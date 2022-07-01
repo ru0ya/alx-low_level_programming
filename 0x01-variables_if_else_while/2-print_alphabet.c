@@ -10,6 +10,7 @@ int main(void)
 	for (int y = 'A' ;  y <= 'Z'; y++)
 	{
 		putchar(tolower(y));
+		putchar('\n');
 	}
 	return (0);
 }
