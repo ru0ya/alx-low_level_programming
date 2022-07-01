@@ -6,16 +6,10 @@
 
 int main(void)
 {
-	for(int a='A';a<='z';a++)
-	{
-		a = tolower(a);
-		putchar(a);
-	}
-	else for(int a ='a';a<='Z';a++)
-	{
-		a = toupper(a);
-		putchar(a);
-	}
-	return (0);
-}
+	int ch;
+	
+	printf("Print all uppercase letters followed by all lower case letters on the next line :\n");
+	for (ch= 'A';ch<= 'Z' ; ch++)
+		putchar(ch);
+		put
 
