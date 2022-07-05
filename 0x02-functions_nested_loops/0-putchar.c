@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * main-Entry point
+ * main-prints putchar
  * Return:nothing
- * printsomething - prints "something"
+ * Description: prints_putchar
 */
-void printsomething(void)
+int main(void)
 
 {
 	_putchar('_');
@@ -17,5 +17,6 @@ void printsomething(void)
 	putchar('a');
 	putchar('r');
 	putchar('\n');
-}
 
+	return (0);
+}
