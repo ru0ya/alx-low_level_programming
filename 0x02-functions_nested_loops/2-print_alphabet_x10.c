@@ -3,7 +3,9 @@
 /**
  * main- Entry point
  * Return: 0 (success)
+ * print_alphabet : prints "alphabet"
 */
+
 void print_alphabet(void)
 {
 	char letter;
@@ -19,12 +21,12 @@ void print_alphabet(void)
 int main(void)
 {
 	int i;
-	for(i=1; i<=10; i++)
+
+	for (i = 1; i <= 10; i++)
 	{
 	putchar(' a ');
 
 	print_alphabet();
 	}
-    
 	return (0);
 }
