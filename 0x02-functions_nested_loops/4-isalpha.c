@@ -10,13 +10,19 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	int alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		return (1);
+		if (c == alpha)
+			return (1);
 	}
-	else
+
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-		return (0);
+		if (c == alpha)
+			return (1);
 	}
+	return (0);
 }
 
