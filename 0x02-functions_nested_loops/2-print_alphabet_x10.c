@@ -1,32 +1,24 @@
-#include <stdio.h>
 #include"main.h"
+
 /**
- * main- Entry point
- * Return: 0 (success)
- * print_alphabet : prints "alphabet"
+ * print_alphabet_x10 - print the alphabet 10 times
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void);
 {
-	char letter;
+	char a = 'a';
 
-	letter = ' a ';
-	while (letter <= ' z ')
+	int n = 10;
+
+	while (n >= 1)
 	{
-	putchar(letter);
-	letter++;
+		while (a <= 'z')
+		{
+			_putchar(a);
+			++a;
+		}
+		--n;
+		_putchar(10);
+		a = 'a';
 	}
-}
-
-int main(void)
-{
-	int i;
-
-	for (i = 1; i <= 10; i++)
-	{
-	putchar(' a ');
-
-	print_alphabet();
-	}
-	return (0);
 }
