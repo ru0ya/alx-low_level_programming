@@ -1,2 +1,1 @@
-# alx-low_level_programming
-To C and beyond!
+C tasks on nested loops
