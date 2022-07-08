@@ -1,18 +1,16 @@
 #include"main.h"
 
 /**
- * print_numbers - print 0 -9
- *
- * Return: void
+ * print_numbers - function
  */
 
 void print_numbers(void)
 {
-	int i, x;
+	int n = 48;
 
-	for (i = 0; i <= 10; i++)
+	while (n < 58)
 	{
-		x = i < 10 ? (i + '0') : '\n'
-			_putchar(x);
+		_putchar(n++);
 	}
+	_putchar(10);
 }
