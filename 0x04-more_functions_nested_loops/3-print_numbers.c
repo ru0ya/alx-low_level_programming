@@ -1,16 +1,17 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_numbers - function
+ * print_numbers - print 0 - 9
+ *
+ * Return: void
  */
-
 void print_numbers(void)
 {
-	int n = 48;
+	int i, x;
 
-	while (n < 58)
+	for (i = 0; i <= 10; i++)
 	{
-		_putchar(n++);
+		x = i < 10 ? (i + '0') : '\n';
+		_putchar(x);
 	}
-	_putchar(10);
 }
