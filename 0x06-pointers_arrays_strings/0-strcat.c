@@ -1,10 +1,9 @@
 #include"main.h"
 
-/*
+/**
  * _strcat - concatenate two strings
- * @i: integer
- * @k: integer
- *
+ *@src: source
+ * @dest: destination
  * Return: destination
  */
 
