@@ -3,18 +3,19 @@
 /**
  * string_toupper - change to uppercase
  *
- * @*s: string name
- *char * - parameter
- * Return: void
+ * @k: char pointer
+ * Return: char pointer
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *k)
 {
-	char *s = name;
+	int i, x;
 
-	while (*s)
+	for (i = 0; k[i] != '\0'; i++)
 	{
-		*s = toupper((unsigned char) *s);
-		s++;
+		x = k[i] >= 'a' && k[i] <= 'z' ? k[i] - 'a' + 'A' : k[i];
+		k[i] = x;
 	}
+
+	return (k);
 }
