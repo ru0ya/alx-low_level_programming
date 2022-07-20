@@ -13,6 +13,13 @@ int _pow_recursion(int x, int y);
 	{
 		return (-1);
 	}
-	else
+	if (x == 0)
+	{
+		return (NULL);
+	}
+	if (x == 1 || y == 0)
+	{
+		return (TRUE);
+	}
 		return (x * f(x, y - 1));
 }
