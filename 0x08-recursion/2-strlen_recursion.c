@@ -10,7 +10,10 @@
 
 int _strlen_recursion(char *s);
 {
-	_putchar ("len: %lu\n", strlen(s));
-
-	return (0);
+	if (*s == 0)
+	{
+		return (i + 1);
+	}
+	else
+		return (_strlen_recursion(s, i + 1));
 }
