@@ -5,12 +5,18 @@
  *
  *  @s: string
  *
- * Return: 0 successful
+ * Return:  void
  */
 
 void _puts_recursion(char *s)
 {
-	puts ("s", \n);
+	if ( *s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	s++;
 
-	return (0);
+	_puts_recursion(s);
 }
