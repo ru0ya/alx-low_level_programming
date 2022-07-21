@@ -12,7 +12,7 @@
 int is_palindrome(char *s)
 {
 
-	if (s[startIndex] != s[endIndex])
+	if (*s[startIndex] != *s[endIndex])
 	{
 		return (0);
 	}
