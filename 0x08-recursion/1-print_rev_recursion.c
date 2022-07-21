@@ -26,10 +26,6 @@ void _print_rev_recursion(char *s)
 
 		reverse(s);
 	}
-
-	c = *p;
-	*p = *(p - 1);
-	*(p - 1) = c;
 	}
 	return (_print_rev_recursion(s));
 }
