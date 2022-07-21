@@ -12,20 +12,7 @@ void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
-	char *p = s;
-	char c;
+		_print_rev_recursion(s +1);
 
-	do {
-		c = *p;
-		*p = *(p + 1);
-		*(p + 1) = c;
-	}
-	while
-	{
-		(*p++);
-
-		reverse(s);
-	}
-	}
-	return (_print_rev_recursion(s));
+		_putchar(*s);
 }
