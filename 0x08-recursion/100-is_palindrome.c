@@ -23,10 +23,7 @@ int is_palindrome(char *s)
 	{
 		return (0);
 	}
-	else
-	{
-		return (1);
-	}
 
-	return (is_palindrome(*s, b +1, e -1));
+
+	return (is_palindrome(*s, b + 1, e - 1));
 }
