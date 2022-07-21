@@ -10,9 +10,26 @@
 
 void _print_rev_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s)
 	{
-	_print_rev_recursion(s + 1);
-	_putchar(*s);
+	char *p = s;
+	char c;
+
+	do {
+		c = *p;
+		*p = *(p + 1);
+		*(p + 1) = c;
 	}
+	while
+	{
+		(*p++);
+
+		reverse(s);
+	}
+
+	c = *p;
+	*p = *(p - 1);
+	*(p - 1) = c;
+	}
+	return (_print_rev_recursion(s));
 }
