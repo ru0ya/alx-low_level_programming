@@ -11,8 +11,6 @@
 
 int is_palindrome(char *s)
 {
-	int startIndex;
-	int endIndex;
 
 	if (s[startIndex] != s[endIndex])
 	{
