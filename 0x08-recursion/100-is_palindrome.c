@@ -11,8 +11,15 @@
 
 int is_palindrome(char *s)
 {
+	int b;
+	int e;
 
-	if (*s[startIndex] != *s[endIndex])
+	if (b == e)
+	{
+		return (1);
+	}
+
+	if (*s[b] != *s[e])
 	{
 		return (0);
 	}
@@ -21,5 +28,5 @@ int is_palindrome(char *s)
 		return (1);
 	}
 
-	return (is_palindrome(s));
+	return (is_palindrome(*s, b +1, e -1));
 }
