@@ -6,4 +6,4 @@ gcc -c *.c
 
 #create library
 
-ar -rc lliball.a *.o
+ar -rc liball.a *.o
