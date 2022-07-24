@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 /**
- * @main: parameter 
+ * main: parameter
  * @argc: first command line argument
  * @argv: points to last argument
- *@count: number of arguments
+ *
  * Return: 0 success
  */
 
