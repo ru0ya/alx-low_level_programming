@@ -5,8 +5,9 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stddef.h>
-
-int main(int argc, char *argv[]);
+#include<stdbool.h>
+int main(__unused int argc, char *argv[]);
+#define __maybe __attribute___((unused))
 
 
 #endif /*MAIN_H*/
