@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main: parameter
- * @argc: first command line argument
- * @argv: points to last argument
+ * main - Entry point
+ * @argc: number of parameters
+ * @argv: array of parameters
  *
  * Return: 0 success
  */
