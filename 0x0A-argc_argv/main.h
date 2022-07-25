@@ -2,12 +2,20 @@
 #define MAIN_H
 
 #include<stdio.h>
+
 #include<stdlib.h>
+
 #include<string.h>
+
 #include<stddef.h>
+
 #include<stdbool.h>
-int main(__unused int argc, char *argv[]);
-#define __maybe __attribute___((unused))
+
+
+int _putchar(char c);
+
+#define END '\0'
+#define __noerr __attribute__((unused))
 
 
 #endif /*MAIN_H*/
