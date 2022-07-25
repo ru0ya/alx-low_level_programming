@@ -5,25 +5,24 @@
  *
  * @argc: number of arguments
  * @argv: name of arguments
- *
+ *@errno: converts char to int
  * Return: 0 success
  */
 
 int main(int argc, char *argv[])
 {
+	long result = 1;
 
-	if (argc != 3)
+	for (int i = 1; i < argc; i++)
 	{
-		goto ERROR;
+		long num;
+		char *p;
 
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-
-		return (0);
+		errno = 0;
+		num = strtol(argv[i], &p, 10);
+		result = result * num;
 	}
-	else
-	{
-ERROR:	printf("Error\n");
+	printf("%ld\n", result);
 
-		return (1);
-	}
+	return (0);
 }
