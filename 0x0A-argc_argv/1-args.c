@@ -9,7 +9,7 @@
  * Return: 0 success
  */
 
-int main(int argc, __noerr char *argv[])
+int main(int argc, __noer char *argv[])
 {
 	printf("%d\n", argc - 1);
 
