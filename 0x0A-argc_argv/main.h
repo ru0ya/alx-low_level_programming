@@ -9,8 +9,6 @@
 
 #include<stddef.h>
 
-#include<stdbool.h>
-
 #include<errno.h>
 
 int _putchar(char c);
