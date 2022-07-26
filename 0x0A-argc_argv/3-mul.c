@@ -1,4 +1,5 @@
-#include"main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -8,32 +9,13 @@
  *
  * Return: 0 success
  */
-
 int main(int argc, char *argv[])
 {
-
-	long result = 1;
-
-	for (int i = 1; i < argc; i++)
+	if (argc != 3)
 	{
-		long num;
-		char *p;
-
-
-		errno  = 0;
-		num = strtol(argv[i], &p, 10);
-
-		if (argc < 3)
-		{
-			printf("Error\n");
-			return (1);
-		}
-
-		result = result * num;
+		printf("Error\n");
+		return (1);
 	}
-	printf("%ld\n", result);
-
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
-
-
 }
