@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		long num;
 		char *p;
-		
+
 
 		errno  = 0;
 		num = strtol(argv[i], &p, 10);
@@ -28,12 +28,12 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		
+
 		result = result * num;
 	}
 	printf("%ld\n", result);
 
 	return (0);
-	
+
 
 }
