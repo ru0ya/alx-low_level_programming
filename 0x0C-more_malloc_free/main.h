@@ -1,10 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define END '\0'
+
+#define EMPTY ""
 
 #include<stdio.h>
+
 #include<stdlib.h>
+
 #include<stddef.h>
+
 #include<string.h>
 
 int _putchar(char c);
