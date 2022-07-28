@@ -3,10 +3,9 @@
 #include<stdio.h>
 
 /**
- *
- * @malloc_checked: assigns memory
- *@b: argument
- * Return: 0 success
+ * malloc_checked -  assigns memory
+ *@b: size of memory to allocate
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
