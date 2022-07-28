@@ -1,14 +1,14 @@
 #include"main.h"
 #include<stdlib.h>
 #include<string.h>
-#include<stdio.h>
 
 /**
- * _calloc: allocates memory size
+ * _calloc - allocates memory size
  *@nmemb: space to be allocated for
  *@size: size of space to be allocated
  * Return: void
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *c;
@@ -21,9 +21,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		exit(1);
 	}
 	else
-		for (i = 0; i < size * (sizeof(nmemb)); i++);
+		while (i = 0; i < size * sizeof(nmemb))
+
 		{
 			*((char *)c + i) = 0;
+			i++;
 		}
 
 		return (c);
