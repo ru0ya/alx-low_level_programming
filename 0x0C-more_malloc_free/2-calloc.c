@@ -4,9 +4,9 @@
 
 /**
  * _calloc - allocates memory size
- *@nmemb: space to be allocated for
- *@size: size of space to be allocated
- * Return: void
+ *@nmemb: size
+ *@size: sizeof(datatype)
+ * Return: pointer to calloc'd string
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
