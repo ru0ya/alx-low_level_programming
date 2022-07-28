@@ -1,4 +1,6 @@
 #include"main.h"
+#include<stdlib.h>
+#include<stddef.h>
 
 /**
  * _calloc - allocates memory size
@@ -13,10 +15,14 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i = 0;
 
 	c = malloc(size * sizeof(nmemb));
+	if (!c)
+	{
+		return (NULL);
+	}
 
 	if (nmemb <= 0 || size <= 0)
 	{
-		exit(1);
+		return (NULL);
 	}
 	else
 		while (i < size * sizeof(nmemb))
