@@ -2,8 +2,9 @@
 #include<string.h>
 /**
  * string_nconcat: concatenates s1 to s2
- * @i: 
- *
+ * 
+ *@s1: argument
+*@s2:argument
  *@n: memory space to be allocated
  * Return: void
  */
