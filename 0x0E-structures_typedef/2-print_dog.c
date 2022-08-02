@@ -1,9 +1,9 @@
 #include "dog.h"
 /**
- * print_dog - 
- * @d:
+ * print_dog - prints elements of d
+ * @d: argument character
  *
- * Return:
+ * Return: void
  */
 
 void print_dog(struct dog *d)
@@ -12,10 +12,11 @@ void print_dog(struct dog *d)
 
 	if (d != NULL)
 	{
+
 	printf("name %s\n", d->name);
 	printf("owner %s\n", d->owner);
 	printf("Age %f\n", d->age);
+
 	}
-	
-	return;
-}	
+
+}
