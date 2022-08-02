@@ -13,8 +13,8 @@ void print_dog(struct dog *d)
 	{
 
 	printf("Name: %s\n", d->name);
-	printf("Age: %s\n", d->age);
-	printf("Owner: %f\n", d->owner);
+	printf("Age: %f\n", d->age);
+	printf("Owner: %s\n", d->owner);
 
 
 	}
