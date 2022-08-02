@@ -2,9 +2,9 @@
 #include<stdio.h>
 
 /**
- * print_dog: frees previously allocated memory
+ * free_dog: frees previously allocated memory
  *
- * @d: pointer
+ * @d: dog loc
  * Return: void
  */
 void print_dog(struct dog *d)
