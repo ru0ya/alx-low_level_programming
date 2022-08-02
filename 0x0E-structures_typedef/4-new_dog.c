@@ -1,8 +1,13 @@
 #include"dog.h"
 
 /**
- * 
+ *new_dog - stores name and owner
  *
+ * @name: argument character
+ * @owner: argument character
+ * @age: argument integer
+ *
+ * Return: void
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -21,7 +26,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	r->name = malloc(sizeof(r->name) * namelen);
 	if (r->name == NULL)
 	{
-		free (r);
+		free(r);
 		return (NULL);
 	}
 	for (i = 0; i < namelen - 1; i++)
