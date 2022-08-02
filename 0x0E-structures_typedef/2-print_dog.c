@@ -14,7 +14,7 @@ void print_dog(struct dog *d)
 	
 	if (d != NULL)
 	{
-		if(name != NULL && owner != NULL)
+		if(name == NULL && owner == NULL)
 		{
 			printf("nil\n");
 		}
