@@ -1,11 +1,12 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
 
-
+/**
+ * Desc: header file containing all prototypes
+ */
 
 #include<stdlib.h>
 
-int _putchar(char c);
 
 int _putchar(char c);
 
