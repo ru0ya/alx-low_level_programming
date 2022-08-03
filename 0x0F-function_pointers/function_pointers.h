@@ -3,6 +3,7 @@
 
 /**
  * Desc: header file containing all prototypes
+ * used in the 0x-pointer directory`
  */
 
 #include<stdlib.h>
