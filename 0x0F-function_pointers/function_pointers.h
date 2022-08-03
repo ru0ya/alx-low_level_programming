@@ -1,5 +1,5 @@
-#define FUNCTION_POINTERS
-#ifndef FUNCTION_POINTERS
+#ifndef _FUNCTION_POINTERS_H
+#define _FUNCTION_POINTERS_H
 
 
 #include<stdio.h>
@@ -14,4 +14,4 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
 
-#endif /*FUNCTION_POINTERS*/
+#endif /*FUNCTION_POINTERS_H*/
