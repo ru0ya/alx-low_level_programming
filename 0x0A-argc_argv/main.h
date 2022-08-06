@@ -7,12 +7,11 @@
 
 #include<string.h>
 
-#include<stddef.h>
+#include<stdbool.h>
 
-#include<errno.h>
+#define  __attribute__((unused))
 
 #define END '\0'
-#define  __attribute__((unused))
 
 int _putchar(char c);
 
