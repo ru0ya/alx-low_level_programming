@@ -11,13 +11,10 @@
 
 #include<errno.h>
 
-int _putchar(char c);
-
-
-int main(int argc, char *argv[];
-
 #define END '\0'
 #define  __attribute__((unused))
+
+int _putchar(char c);
 
 
 #endif /*MAIN_H*/
