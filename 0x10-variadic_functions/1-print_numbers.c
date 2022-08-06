@@ -6,14 +6,15 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-          int i;
-       
-          va_list ap;
+        va_list ap;
+       	unsigned  int i;
+
            va_start(ap, n);
            for (i = 0; int i < n; i++)
-            {
-            if (separator && i < n -1)
-                 printf(“%s”, separator); 
+	   {
+		   printf("%d", va_arg(ap, int));
+            		if (separator && i < n -1)
+                		 printf(“%s”, separator); 
             }
              printf(“\n”);
             va_end(ap);
