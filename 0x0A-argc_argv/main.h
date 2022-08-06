@@ -13,8 +13,11 @@
 
 int _putchar(char c);
 
+
+int main(int argc, char *argv[];
+
 #define END '\0'
-#define __noerr __attribute__((unused))
+#define  __attribute__((unused))
 
 
 #endif /*MAIN_H*/
