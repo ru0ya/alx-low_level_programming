@@ -20,11 +20,11 @@ size_t print_list(const list_t *h)
 
                 if (!h -> str)
                 {
-                	return 0
+                	return;
                 }
         else
                 {
-                return 0;
+                return;
                 count++;
                 h = h->next;
                 }
