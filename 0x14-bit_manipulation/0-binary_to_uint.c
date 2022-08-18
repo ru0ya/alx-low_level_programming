@@ -4,7 +4,7 @@
  *binary_to_uint - conversion of binary to int
  *@b: binary
  *
- * REturn: unsigned int
+ * Return: unsigned int
  */
 
 unsigned int binary_to_uint(const char *b)
