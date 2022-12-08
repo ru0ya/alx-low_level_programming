@@ -15,4 +15,3 @@ def island_perimeter(grid):
                 per += 1 if i == bottom - 1 or not grid[i + 1][j] else 0
 
     return per
-
